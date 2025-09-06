@@ -28,7 +28,7 @@ const Header = () => {
 
                 </motion.div>
 
-                {/* Desktop Navigation */}
+                {/* Desktop Navigation on top */}
                 <nav className="lg:flex hidden space-x-8">
                     {["Home", "About", "Projects", "Experience", "Contact"].map(
                         (item,index) => (
