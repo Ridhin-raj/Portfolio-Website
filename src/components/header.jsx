@@ -8,7 +8,7 @@ const Header = () => {
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justfy-between">
                 {/* Logo/Name */}
                 <motion.div 
-                initial={{opacity: 0,x: -50}}
+                initial={{opacity: 0,x: -100}}
                 animate={{opacity: 1, x: 0}}
                 transition={{
                     type: "spring",
