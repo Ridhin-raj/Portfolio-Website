@@ -150,7 +150,8 @@ const Header = () => {
                 </div>
                  <button 
                     onClick={() => {
-                        toggleMenu()
+                        toggleMenu(),
+                        openContactForm()
                         
                     }
                     }
